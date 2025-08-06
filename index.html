@@ -186,11 +186,12 @@
       animation:logoReveal 1.5s ease-out 1s forwards;
       transition:all 0.5s ease;
       cursor:pointer;
+      filter:drop-shadow(0 0 30px rgba(255,255,255,0.4)) brightness(1.2);
     }
     
     .brand-logo:hover{
       transform:scale(1.02);
-      filter:drop-shadow(0 15px 30px rgba(212,175,55,0.2));
+      filter:drop-shadow(0 15px 40px rgba(255,255,255,0.5)) brightness(1.3);
     }
     
     @keyframes logoReveal{
@@ -235,11 +236,11 @@
       margin-top:35px;
       opacity:0;
       animation:fadeIn 1s ease-out 2.8s forwards;
-      gap:20px;
+      gap:30px;
     }
     
     .pub-logo{
-      height:35px;
+      height:70px;
       width:auto;
       filter:brightness(0) invert(1);
       opacity:0.8;
@@ -496,7 +497,7 @@
     }
     
     .component-logo{
-      height:40px;
+      height:60px;
       width:auto;
       margin-bottom:20px;
       opacity:0.9;
@@ -654,6 +655,7 @@
     .metric-item:nth-child(2) .metric-number{animation-delay:0.2s;}
     .metric-item:nth-child(3) .metric-number{animation-delay:0.3s;}
     .metric-item:nth-child(4) .metric-number{animation-delay:0.4s;}
+    .metric-item:nth-child(5) .metric-number{animation-delay:0.5s;}
     
     @keyframes metricPop{
       to{transform:scale(1);}
@@ -804,7 +806,7 @@
     }
     
     .experiential-logo{
-      height:45px;
+      height:60px;
       width:auto;
       margin-bottom:25px;
       filter:brightness(0) invert(1);
@@ -1057,13 +1059,13 @@
       .section{padding:60px 0;}
       .container{padding:0 20px;}
       .brand-logo{width:clamp(180px,50vw,250px);}
-      .pub-logo{height:28px;}
+      .pub-logo{height:45px;}
       .partner-text{letter-spacing:3px;font-size:16px;}
       .component-card{padding:35px 25px;}
-      .component-logo{height:35px;}
+      .component-logo{height:45px;}
       .investment-card{padding:40px 30px;}
       .experiential-card{padding:45px 35px;}
-      .experiential-logo{height:35px;}
+      .experiential-logo{height:45px;}
       .email-journey{flex-direction:column;gap:30px;}
       .journey-line{display:none;}
       .journey-step{width:90px;height:90px;}
@@ -1129,24 +1131,16 @@
       </div>
       
       <div class="executive-content fade-in">
-        M. Shanken Communications proudly presents an exclusive cross-platform marketing program designed to elevate Clase Azul to unprecedented heights within the luxury spirits market. This comprehensive initiative will engage our most discerning readers—affluent collectors and connoisseurs who appreciate the artistry of exceptional tequila.
-      </div>
-      
-      <div class="investment-card fade-in">
-        <div class="investment-amount">$62,170</div>
-        <div class="investment-details">
-          TOTAL MARKETING INVESTMENT<br>
-          Multi-Platform Luxury Positioning • 2026
-        </div>
+        M. Shanken Communications presents an exclusive cross-platform marketing program designed to elevate Clase Azul within the luxury spirits market. This comprehensive initiative will engage our most discerning readers—affluent collectors and connoisseurs who appreciate the artistry of exceptional tequila.
       </div>
     </div>
   </section>
   
-  <!-- Digital Excellence -->
+  <!-- Digital -->
   <section class="section section-dark">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title fade-in">DIGITAL EXCELLENCE</h2>
+        <h2 class="section-title fade-in">DIGITAL</h2>
         <div class="title-decorator"></div>
       </div>
       
@@ -1158,8 +1152,6 @@
             <h3 class="component-title">Immersive Storytelling Experience</h3>
             <p class="component-subtitle">Share the extraordinary narrative of Clase Azul La Terraza Los Cabos</p>
           </div>
-          
-          <div class="component-price">$20,000</div>
           
           <div class="feature-grid">
             <div class="feature-item">
@@ -1193,6 +1185,10 @@
               <span class="metric-number">Premium</span>
               <span class="metric-label">Positioning</span>
             </div>
+            <div class="metric-item">
+              <span class="metric-number">$20,000</span>
+              <span class="metric-label">Investment</span>
+            </div>
           </div>
         </div>
         
@@ -1202,8 +1198,6 @@
             <h3 class="component-title">Strategic Email Marketing Journey</h3>
             <p class="component-subtitle">Maximize engagement with Clase Azul's Private Client Collector's Program</p>
           </div>
-          
-          <div class="component-price">$10,000 - $15,000</div>
           
           <p style="text-align:center;font-size:16px;margin:25px 0;color:rgba(255,255,255,0.7);font-family:'Alore',serif;font-weight:300;">
             Create a sophisticated funnel leveraging first-party data to drive meaningful connections
@@ -1238,6 +1232,10 @@
               <span class="metric-number">2.5%</span>
               <span class="metric-label">CTR Average</span>
             </div>
+            <div class="metric-item">
+              <span class="metric-number">$10K-$15K</span>
+              <span class="metric-label">Investment</span>
+            </div>
           </div>
         </div>
       </div>
@@ -1248,7 +1246,7 @@
   <section class="section section-gradient">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title fade-in">EXPERIENTIAL & PRINT EXCELLENCE</h2>
+        <h2 class="section-title fade-in">EXPERIENTIAL & PRINT</h2>
         <div class="title-decorator"></div>
       </div>
       
@@ -1272,7 +1270,7 @@
       <!-- Print -->
       <div class="component-card fade-in">
         <div class="component-header">
-          <img src="https://i.ibb.co/TD1Trxr7/WA.png" alt="Whisky Advocate" class="component-logo">
+          <img src="https://i.ibb.co/TD1Trxr7/WA.png" alt="Whisky Advocate" class="component-logo" style="height:70px;">
           <h3 class="component-title">Premium Print Presence</h3>
           <p class="component-subtitle">Positioning in every issue featuring Tequila ratings</p>
         </div>
@@ -1308,7 +1306,6 @@
   <!-- Contact -->
   <section class="contact-section">
     <div class="contact-content">
-      <h2 class="contact-title">Let's Create Excellence Together</h2>
       <div class="contact-name">Alyssa Weiss</div>
       <div class="contact-details">
         <a href="mailto:aweiss@mshanken.com">aweiss@mshanken.com</a><br>
